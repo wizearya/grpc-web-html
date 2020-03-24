@@ -1,9 +1,0 @@
-version: '3'
-services:
-  commonjs-client:
-    build:
-      context: ./
-      dockerfile: ./gateway/docker/commonjs_client/Dockerfile
-    image: grpcweb/commonjs-client
-    ports:
-      - "8081:8081"

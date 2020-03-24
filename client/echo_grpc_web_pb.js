@@ -18,7 +18,7 @@ grpc.web = require('grpc-web');
 const proto = {};
 proto.grpc = {};
 proto.grpc.gateway = {};
-proto.grpc.gateway.testing = require('./echo_pb.js');
+proto.grpc.gateway.testing = require('./echo_pb.js.js.js.js');
 
 /**
  * @param {string} hostname
