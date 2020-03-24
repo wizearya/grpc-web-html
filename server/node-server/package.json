@@ -1,6 +1,7 @@
 {
-  "name": "grpc-web-node-server-example",
+  "name": "grpc-web-node-server-sample",
   "version": "0.1.0",
+  "description": "sample node server gRPC-web",
   "dependencies": {
     "@grpc/proto-loader": "^0.3.0",
     "async": "^1.5.2",

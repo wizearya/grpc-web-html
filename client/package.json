@@ -1,7 +1,7 @@
 {
-  "name": "grpc-web-client-example",
+  "name": "grpc-web-client-sample",
   "version": "0.1.0",
-  "description": "gRPC-Web client example",
+  "description": "gRPC-Web client sample",
   "license": "Apache-2.0",
   "dependencies": {
     "google-protobuf": "^3.6.1",
