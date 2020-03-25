@@ -12,8 +12,8 @@ gRPCを使うメリット
 デメリット　　
 - データがシリアライズされるのでデバッグはやりづらい。　　
 - エコシステム、デバッグツールやAPIドキュメント生成などがREST APIに比べてあまり揃っていない。現時点ではドキュメントも少ない。  
-- フロントエンドJavaScriptで直接使用できない(grpc-gatewayなどが必要になる)。  
-*このgRPCをWebブラウザのJavaScriptから呼び出し可能にする「gRPC-Web」が正式リリースとなった事。サンプルではenvoyを使用、他にはnginxなどでも使用可能。
+- ~~フロントエンドJavaScriptで直接使用できない(grpc-gatewayなどが必要になる)。~~   
+ このgRPCをWebブラウザのJavaScriptから呼び出し可能にする「gRPC-Web」が正式リリースとなった事。サンプルではenvoyを使用、他にはnginxなどでも使用可能。
 
 
 ## Start Client
