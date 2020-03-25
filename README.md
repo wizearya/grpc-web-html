@@ -13,7 +13,7 @@ gRPCを使うメリット
 
 
 ## Start Client
-`$ phyton -m simpleHTTPServer 8081`  
+`$ python -m simpleHTTPServer 8081`  
 - loacalhost:8081 をブラウザーで起動その後clientのディレクトリーに行くとサンプルが起動します。
 ## Start Server
 `$ docker-compose up`  
