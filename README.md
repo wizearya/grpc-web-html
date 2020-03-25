@@ -24,11 +24,13 @@ gRPCを使うメリット
 `$ docker-compose build`  
 - Dockerfileの変更を反映させるにはにはbuildを実行します。
 ## Build Client
-`$ cd client`  
-`$ npm install`
+Client側のpackage.jsonに記載されたパッケージをインストールします。  
+- `$ cd client`  
+- `$ npm install`
 ## Build Server
-`$ cd server`  
-`$ npm install`  　　
+Server同じくパッケージをインストールします。　　
+- `$ cd server`  
+- `$ npm install`  　　
 ## 準備する事
 protoファイルから各言語ソースを自動生成するにはprotocというツールを使います。macではHomebrewでインストールできます。  
 - `$ brew intall protobuf`   
